@@ -1,0 +1,39 @@
+.home{
+    text-decoration: underline;
+}
+.ipsum{
+    max-width: 600px; 
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: #e85c16;
+}
+.pageStart{
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: #16a2e8;
+    background: -webkit-linear-gradient(#16a2e8, #e85c16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+h2,h3{
+    display: flex;
+    justify-content: center;
+    color: #16a2e8;
+
+  }
+.twitterDiv{
+  
+  
+  width:40rem;
+  max-height:300px;
+  overflow:scroll;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+.biggerTwitterDiv{
+  display:flex;
+  justify-content: center;
+}

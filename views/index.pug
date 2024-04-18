@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    
+  table
+    tr 
+      th Week
+      th Day of Week
+      th Topic
+    tr 
+      td #{schedule[0].week}
+      td #{schedule[0].day_of_week}
+      td.monoFont #{schedule[0].topic}
+    tr
+      td #{schedule[1].week}
+      td #{schedule[1].day_of_week}
+      td #{schedule[1].topic}
+    tr
+      td #{schedule[2].week}
+      td #{schedule[2].day_of_week}
+      td.redBox #{schedule[2].topic}
+    tr
+      td #{schedule[3].week}
+      td #{schedule[3].day_of_week}
+      td #{schedule[3].topic}
+    tr
+      td #{schedule[4].week}
+      td #{schedule[4].day_of_week}
+      td #{schedule[4].topic}
+

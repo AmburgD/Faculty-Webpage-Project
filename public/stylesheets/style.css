@@ -1,0 +1,53 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(https://j.gifs.com/An390P.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+.headerLink{
+  color:gray;
+}
+a{
+  position: relative;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: .05px;
+  padding: 0 10px;
+  color:#2e1204;
+}
+a:after{
+  content:"";
+  position:absolute;
+  background-color: #000000;
+  height:3px;
+  width:0;
+  left: 0;
+  bottom:-10px;
+  transition:0.3s;
+}
+a:hover{
+  color:ghostwhite;
+}
+a:hover:after{
+  width:100%;
+}
+.pageHeading{
+  display: flex;
+  justify-content: center;
+}
+.bodyContent{
+  padding-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.center{
+  text-align: center;
+}
+.secretLink{
+  display: flex;
+  justify-content: center;
+  color:black;
+}

@@ -1,0 +1,182 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/study.css')
+    .mainHeader
+        .studyHeader(id = "top") Topics To Study
+
+            p.warning THE EXAMS WILL COME UP FAST SO BE PREPARED
+    .mainHeader
+        h2 Sections 
+            table  
+                tr 
+                    td Up to First Exam 
+                        a.sector(href="#first-section") Go to
+                tr
+                    td Up to Second Exam <a class = "sector" href="#second-section">Go to</a>
+                tr
+                    td Up to Third Exam <a class = "sector" href="#third-section">Go to</a>
+    //.study is an ovveride because it wants to display with the header style
+    .section
+        h2(id = 'first-section') Up to First Exam <a class = "sector" href="#top">Back To Top</a>
+    .pad  
+        details(open)
+            summary First Exam
+            div.tab-content
+                ul.study Core HTML tags and Basic page layout
+                    li.study 
+                        a(href = "https://www.w3schools.com/htmL/html_basic.asp", target = "_blank") Basics 
+                    li.study 
+                        a(href = "https://www.w3schools.com/htmL/html_paragraphs.asp", target = "_blank") Paragraphs
+                    li.study  
+                        a(href = "https://www.w3schools.com/htmL/html_links.asp", target = "_blank") Links
+                    li.study 
+                        a(href = "https://www.w3schools.com/htmL/html_headings.asp", target = "_blank") Headings
+                    li.study 
+                        a(href = "https://www.w3schools.com/html/html_quotation_elements.asp", target = "_blank") Quotation Elements
+                    li.study 
+                        a(href = "https://www.w3schools.com/htmL/html_formatting.asp", target = "_blank") Formatting
+                ul.study Basics of style
+                    li.study 
+                        a(href = "https://www.w3schools.com/html/html_styles.asp", target = "_blank") Styles 
+                ul.study RGB Colors and Accessibility
+                    li.study 
+                        a(href = "https://www.w3schools.com/html/html_colors.asp", target = "_blank") Colors
+                ul.study CSS, classes, and IDs
+                    li.study 
+                        a(href = "https://www.w3schools.com/html/html_css.asp", target = "_blank") CSS  
+                    li.study
+                        a(href="https://www.w3schools.com/html/html_classes.asp", target="_blank") classes
+                    li.study
+                        a(href="https://www.w3schools.com/html/html_id.asp", target="_blank") ID's
+                    li.study
+                        a(href="https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade", target="_blank") Cascade
+                ul.study Div and Span
+                    li.study
+                        a(href="https://www.w3schools.com/tags/tag_span.asp", target="_blank") Span
+                    li.study
+                        a(href="https://www.w3schools.com/tags/tag_div.asp", target="_blank") Div
+                ul.study The Box Model
+                    li.study
+                        a(href="https://www.w3schools.com/css/css_border.asp", target="_blank") border
+                    li.study
+                        a(href="https://www.w3schools.com/css/css_margin.asp", target="_blank") margin
+                    li.study
+                        a(href="https://www.w3schools.com/css/css_padding.asp", target="_blank") padding
+                    li.study
+                        a(href="https://www.w3schools.com/css/css_dimension.asp", target="_blank") dimension
+                    li.study
+                        a(href="https://www.w3schools.com/css/css_boxmodel.asp", target="_blank") box model
+                    li.study
+                        a(href="https://www.w3schools.com/css/css_outline.asp", target="_blank") outline
+                ul.study CSS Float
+                    li.study
+                        a(href="https://www.w3schools.com/Css/css_float.asp", target="_blank") float
+                ul.study CSS length units   
+                    li.study
+                        a(href="https://www.w3schools.com/cssref/css_units.php", target="_blank") Units
+                    li.study
+                        a(href="https://developer.mozilla.org/enUS/docs/Learn/CSS/Building_blocks/Values_and_units#lengths", target="_blank") Mozilla Developer Network
+                    li.study
+                        a(href="https://hacks.mozilla.org/2013/09/css-length-explained/", target="_blank") Mozilla Hacks
+                ul.study HTML/CSS icons    
+                    li.study
+                        a(href="https://www.w3schools.com/css/css_icons.asp", target="_blank") icons
+                    li.study
+                        a(href="https://www.w3schools.com/icons/icons_reference.asp", target="_blank") reference
+                ul.study flex box
+                    li.study
+                        a(href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/", target="_blank") CSS tricks
+    .section
+        h2(id = "second-section") Up to Second Exam <a class = "sector" href="#top">Back To Top</a>
+    .pad  
+        details
+            summary Second Exam
+            div.tab-content
+                ul.study JavaScript Basics (don’t need to know about document.getElementById()_)
+                    li.study
+                        a(href="https://www.w3schools.com/js/js_syntax.asp", target="_blank") JS Syntax
+                    li.study
+                        a(href="https://www.w3schools.com/js/js_comments.asp", target="_blank") JS Comments
+                    li.study
+                        a(href="https://www.w3schools.com/js/js_variables.asp", target="_blank") JS Variables
+                    li.study
+                        a(href="https://www.w3schools.com/js/js_let.asp", target="_blank") JS Let
+                    li.study
+                        a(href="https://www.w3schools.com/js/js_const.asp", target="_blank") JS Const
+                    li.study
+                        a(href="https://www.w3schools.com/js/js_operators.asp", target="_blank") JS Operators
+                    li.study
+                        a(href="https://www.w3schools.com/js/js_arithmetic.asp", target="_blank") JS Arithmetic
+                    li.study
+                        a(href="https://www.w3schools.com/js/js_strings.asp", target="_blank") JS Strings 
+                ul.study HTTP
+                    li.study All content on Moodle “HTTP” slides
+                    li.study HTTP Headers/Body
+                    li.study Cookies
+                    li.study Cache
+                ul.study
+                    a(href="Network Ports.pdf", target="_blank") Port numbers (see “Network Ports” PDF on Moodle)
+                ul.study
+                    a(href="Domain definitions.pdf", target="_blank") Domain name basics (See “Domain definitions” PDF on Moodle)
+                ul.study Model-View-Controller (see slides on Moodle)
+                ul.study Client-side versus server-side JavaScript (See “MVC” slides on Moodle)
+                    li.study Node
+                ul.study  More complex JavaScript (see our in-class examples)
+                    li.study Creating and running a server-side JavaScript script
+                    li.study Looping
+                    li.study JSON
+                    li.study Accessing data from JavaScript Objects
+                    li.study Debugger basics
+                    li.study Function declaration syntax (see our in-class examples)
+                ul.study
+                    li.study Know at least one way to declare functions
+                    li.study Recognize valid and invalid function declarations
+                    li.study The basics of asynchronous JavaScript server code (see “Week 9 Friday HTTP Server completed” on Moodle)
+                ul.study Critical JavaScript elements:
+                    li.study while basic syntax
+                    li.study if basic syntax
+                    li.study for loop basic syntax
+                    li.study forEach basic syntax
+                    li.study Declaring/accessing/modifying arrays
+                    li.study Declaring/accessing/modifying objects
+                    li.study Function declaration syntax  
+    .section
+        h2(id = "third-section") Up to Third Exam <a class = "sector" href="#top">Back To Top</a>
+    .pad
+        details
+            summary Third Exam
+            div.tab-content
+                ul.study NPM
+                    li.study what is 'npm' used for?
+                    li.study how to install libraries for a node project?
+                    li.study what is a package.json file?
+                ul.study MVC in Express 
+                    li.study examples of controllers in express and how they work        
+                    li.study examples of views in express and how they work        
+                    li.study examples of models in express and how they work
+                ul.study Templating languages
+                    li.study converting static HTML into pug
+                    li.study rendering a JSON object in a pug template               
+                ul.study Databases
+                    li.study Why use a database?
+                    li.study What is an SQL database?             
+                    li.study What is a NoSQL database?               
+                ul.study Other resources
+                    li.study.third 
+                        a(href = "https://expressjs.com/", target = "_blank") Express
+                    li.study.third 
+                        a(href = "https://www.w3schools.com/js/js_json_intro.asp", target = "_blank") Json Files
+                    li.study.third  
+                        a(href = "https://www.w3schools.com/sql/sql_intro.asp", target = "_blank") Databases
+                    li.study.third 
+                        a(href = "https://pugjs.org/api/getting-started.html", target = "_blank") PUG template language
+                    li.study.third 
+                        a(href = "https://www.w3schools.com/nodejs/nodejs_intro.asp", target = "_blank") Nodejs and NodePackageManager
+                    li.study.third 
+                        a(href = "https://expressjs.com/en/guide/routing.html", target = "_blank") Routing
+                    li.study.third 
+                        a(href = "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server", target = "_blank") Servers
+                    li.study.third 
+                        a(href = "https://www.youtube.com/watch?v=mNHwLcOfVso", target = "_blank") Linking PUG, CSS, and JS   
+                    <a class = "sector" href="#top">Back To Top</a>

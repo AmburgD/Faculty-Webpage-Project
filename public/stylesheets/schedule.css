@@ -1,0 +1,29 @@
+.schedule{
+    text-decoration: underline;
+}
+table, th, td{
+    border: 1px solid rgb(255, 255, 255);
+    font-size:2rem;
+
+}
+.monoFont{
+    font-family: monospace;
+}
+.redBox{
+  background-color: red;
+}
+.fullSchedule{
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+h1{
+    color:#16a2e8;
+    display: flex;
+    justify-content: center;
+    font-Size:4rem;
+    font: "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: -webkit-linear-gradient(#16a2e8, #e85c16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

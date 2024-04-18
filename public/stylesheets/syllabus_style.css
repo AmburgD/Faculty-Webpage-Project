@@ -1,0 +1,78 @@
+body{
+	background-color:#002036;
+}
+.syllabus{
+	text-decoration: underline;
+}
+table, ol, p{
+	background-color: #e85c16;
+}
+ol {
+	list-style-position: outside; 
+	margin-left: 0; 
+	padding-left: 20px; 
+  }
+table, th, td{
+    border: 1px solid rgb(255, 255, 255);
+}
+li{
+	color:black;
+}
+.officeHours{
+	list-style-type: none;
+	background-color: #e85c16;
+}
+.sectionStart{
+	color:#16a2e8;
+	padding-top:.5rem;
+	padding-bottom:.5rem;
+	display: flex;
+  	justify-content: center;
+	text-align: left;
+}
+p{
+	font-size: 1rem;
+	color:black;
+	padding:.5rem;
+	background-color: #e85c16; 
+}
+.title{
+	font-weight: bold;
+}
+.objectives{
+  width: 80%; 
+  margin: auto; 
+
+  background-color: #e85c16; 
+  padding-left: 1rem;
+  font-size:1rem; 
+}
+.subSection{
+	padding-left: 1rem; 
+	background-color: #e85c16;
+	justify-content: center;
+	text-align: center;
+	
+}
+.subList{
+	list-style:none;
+}
+h2 img {
+	vertical-align: middle; 
+	margin-right: 20px; 
+  }
+h2{
+	font-size:3rem;
+	background: -webkit-linear-gradient(#16a2e8, #e85c16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	
+}
+.weirdCase{
+	font-size:3rem;
+	color:#16a2e8;
+	padding-top:.5rem;
+	padding-bottom:.5rem;
+	display: flex;
+  	justify-content: center;
+}

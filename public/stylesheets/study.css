@@ -1,0 +1,111 @@
+.study2{
+    text-decoration: underline;
+}
+.studyHeader{
+    font-size: 4rem;
+    color:#16a2e8;
+    background: -webkit-linear-gradient(#16a2e8, #e85c16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.warning{
+    font-weight: bold;
+    color:white;
+}
+.study{
+    background-color: #e85c16;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+}
+.section{
+    color:#16a2e8;
+    padding-bottom:1rem;
+    display:flex;
+    justify-content:center;
+    
+}
+.pad{
+    padding-bottom:1rem;
+    background-color: #e85c16;
+    width:50%;
+    margin:0 auto;
+}
+li.study{
+   font-size: smaller; 
+}
+.third{
+    padding:1rem;
+}
+table{
+    color:white;
+    border-style: dashed;
+}
+.sector{
+    color:greenyellow;
+    background: -webkit-linear-gradient(left, white, #e85c16);
+    background: -o-linear-gradient(right, white, #e85c16);
+    background: -moz-linear-gradient(right, white, #e85c16);
+    background: linear-gradient(to right,  white, #e85c16); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul{
+    color:#00263e;
+    font-size: 2rem;
+}
+
+.mainHeader{
+  display:flex;
+  justify-content:center;
+
+}
+
+
+/*
+found code for tabs
+
+https://stackdiary.com/useful-css-tricks/
+
+*/
+main {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  p {
+      text-align: justify;
+      font-family: monospace;
+      font-size: 13px;
+  }
+  summary {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: grey;
+    color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    position: relative;
+  }
+  details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+  @keyframes sweep {
+    0%    {opacity: 0; margin-top: -10px}
+    100%  {opacity: 1; margin-top: 0px}
+  }
+  details > summary::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+  }
+  details[open] > summary::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }

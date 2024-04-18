@@ -1,0 +1,100 @@
+extends layout
+
+
+block content
+
+  link(rel='stylesheet', href='/stylesheets/syllabus_style.css')
+  .center
+    img(src = "https://www.onu.edu/themes/custom/onu/logo.svg", alt="Home")
+
+    h1.sectionStart ECCS 2441: Web Development
+
+    img(src = "https://phantomlandscapes.files.wordpress.com/2021/04/html-css-javascript.jpg?w=1024&h=576", width = "300", height = "200", alt = "html logo" )
+
+
+    h2.sectionStart General information:
+    center 
+      table
+        tr
+          td.title Instructor
+          td Dr. Ian Kropp
+        tr
+          td.title Email
+          td
+            a( href = "https://mail.google.com/mail/u/0/#inbox?compose=new", target="_blank") i-kropp@onu.edu
+        tr
+          td.title Class times 
+          td M-W-F: 12:00 to 12:50
+        tr
+          td.title Office hours
+          td
+            ul.officeHours
+              li Monday: 3 to 4PM             
+              li Tuesday: 9 to 11AM         
+              li Wednesday: 8 to 9AM        
+              li Thursday: 2 to 3PM (remote)
+        tr
+          td.title Office
+          td Kennedy 242
+        tr
+          td.title Classroom
+          td Kennedy 307
+        tr
+          td.title Required Textbooks
+          td None
+        tr
+          td.title Suggested Textbook
+          td JavaScript from Frontend to Backend
+        tr 
+          td.title Final/Midterm
+          td TBD
+   
+    h2(id = "Course-Objectives").weirdCase Course Objectives
+    .sectionStart  
+      .objectives 
+        p By the end of this semester, you should be able to:
+
+
+          ol
+            li Work with ambiguous client requirements in order to create a full stack web application with 
+              ul
+                li HTML
+                li CSS
+                li JavaScript
+
+            li Understand HTTP well enough to 
+              ul
+                li Debug broken websites
+                li Optimize poorly performing websites
+                li Use REST API calls to client specifications
+                li Choose the appropriate HTTP method for appropriate scenarios
+                li Describe to a lay person the benefits of HTTPS
+                li Course Format
+            li Create accessible web applications
+
+  .subSection
+    p This course is going to go beyond the traditional lecture format, and will at times include:
+      ul.subList
+        li Lab-based lectures 
+        li Student lead learning
+        li Ambiguous real-world engineering problems
+
+  h2(id = "Academic-Honesty").sectionStart Academic Honesty
+  p.
+    For individual assignments, I expect you to complete the work entirely by
+    yourself. Passing someone else's work as your own will not be tolerated. 
+    However, I encourage you to discuss course topics with me or your peers! 
+    Often all it takes to understand a topic is to talk it through with 
+    someone else. If you're unclear about this distinction, I'd be happy to 
+    talk it over with you.
+
+
+  h2(id = "Late-Policy").sectionStart Late Policy
+    img(src="https://www.onu.edu/sites/default/files/migrane_klondike.png", width="60", height="60", alt="Migrane Klondike")
+
+  p Assignment grades will be reduced by 30% every day past its due date.
+
+
+  h2(id = "Other").sectionStart Other Course policies
+  p See other common course policies 
+    a(href="https://my.onu.edu/registrars_office/policies") here.
